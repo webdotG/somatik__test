@@ -1,0 +1,36 @@
+.header{
+    position: sticky;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    min-width: 50px;
+    height: 100%;
+    background-color:black;
+}
+
+.header__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation{
+    visibility: hidden;
+}
+
+.header__logo{
+    align-self: center;
+    margin-left: 10px;
+}
+.header__img{
+    width: 50px;
+    height: 50px;
+}
+
+.navigation__button{
+    align-self: center;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border: none;
+    background-color: white;
+}
